@@ -71,8 +71,8 @@ dependencies:
 .. code-block:: shell
 
     (env) [user@laptop]$ pip install -r deployment/requirements.txt
-    (env) [user@laptop]$ ansible-galaxy collection install -r requirements.yml
-    (env) [user@laptop]$ ansible-galaxy role install -r requirements.yml
+    (env) [user@laptop]$ ansible-galaxy collection install -r deployment/single-server/requirements.yml
+    (env) [user@laptop]$ ansible-galaxy role install -r deployment/single-server/requirements.yml
 
 Deployment
 ==========
